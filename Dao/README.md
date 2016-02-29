@@ -15,7 +15,7 @@ MySql数据库接入，增删改查。
 
 ###Public Functions
 |方法名|参数|返回值|说明|
-|-----|------|
+|---|---|---|---|
 |OpenSql|null|void|打开数据库,数据库ip，id，密码，数据库名为变量中设置的对应参数|
 |CreateTable|**string** name, **string[]** col,**string[]** colType|DataSet|创建一个新表，name-表名，col-值，colType-值类型|
 |CreateTableAutoID|**string** name,**string[]** col,**string[]** colType|DataSet|创建一个带id的表，name-表名，col-值，colType-值类型|
