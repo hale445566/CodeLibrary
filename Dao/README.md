@@ -5,6 +5,7 @@
 
 ##SqlAccess
 MySql数据库接入，增删改查。
+dll在plugins文件夹下MySql.Data，System.Data。
 ###Variables
 | 变量名 | 说明 |
 |--------|--------|
