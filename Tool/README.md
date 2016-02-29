@@ -2,7 +2,6 @@
 
 [TOC]
 
-
 ##ChangeShader
 高亮，改变物体shader。
 拖到需要高亮的物体上使用，物体要有碰撞体。
@@ -31,7 +30,7 @@
 |GetTime|null|string|获得系统时间，返回00时00分00秒|
 
 ##GZip
-压缩解压byte[]
+压缩解压byte[],dll在Plugins文件夹下ICSharpCode.SharpZipLib.dll
 ###Static Functions
 |方法|参数|返回值|说明|
 |---|---|---|---|
