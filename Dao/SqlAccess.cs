@@ -254,7 +254,7 @@ public class SqlAccess
     /// <summary>
     /// 关闭数据库
     /// </summary>
-    public void Close()
+    private void Close()
     {
 
         if (dbConnection != null)
@@ -266,7 +266,7 @@ public class SqlAccess
 
     }
 
-    public static DataSet ExecuteQuery(string sqlString)
+    private static DataSet ExecuteQuery(string sqlString)
     {
         if (dbConnection.State == ConnectionState.Open)
         {

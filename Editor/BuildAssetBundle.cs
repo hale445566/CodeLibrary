@@ -6,7 +6,7 @@ public class BuildAssetBundle : Editor{
 
     [MenuItem("MyTool/BuildAssetBundle")]
     public static void Build() {
-        BuildPipeline.BuildAssetBundles(Global.questionImagePath);
+        BuildPipeline.BuildAssetBundles("打包的路径");
     }
 
 }
