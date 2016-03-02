@@ -25,4 +25,5 @@ dll在plugins文件夹下MySql.Data，System.Data。
 |SelectWhere|**string** tableName,**string[]** items,**string[]** col,**string[]** operation,**string[]** values|DataSet|查询数据。tableName-表名,items-要查询的数据名,col-列名,operation-逻辑判断符,values-列值|
 |UpdateInto|**string** tableName,**string[]** cols,**string[]** colsvalues,**string** selectkey,**string** selectvalue|DataSet|修改数据。tableName-表名,cols-列名，colsvalues-列值，selectkey-选中的列名,selectvalue-列值|
 |Delete|**string** tableName,**string[]** cols,**string[]** colsvalues|DataSet|删除数据。tableName-表名，cols-列名，colsvalues-列值|
+|Close|null|void|关闭数据库|
 

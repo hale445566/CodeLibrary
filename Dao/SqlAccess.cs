@@ -254,7 +254,7 @@ public class SqlAccess
     /// <summary>
     /// 关闭数据库
     /// </summary>
-    private void Close()
+    public void Close()
     {
 
         if (dbConnection != null)
