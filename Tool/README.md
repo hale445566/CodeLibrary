@@ -74,6 +74,13 @@
 |---|---|---|---|
 |RandomSortArray|**T[]** array|void|对数组内元素进行随机排列|
 
+##SortString
+对string进行排列，采用冒泡排序算法。
+###Static Functions
+|方法|参数|返回值|说明|
+|---|---|---|---|
+|BubbleSort|**string** s|string|对string按字母顺序排列，返回排列好的string。|
+
 ##VoiceButton
 发送语音，通过Microphone接收语音，通过rpc发送。
 将语音片段转成byte[]。
