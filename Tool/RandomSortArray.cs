@@ -5,7 +5,7 @@
     /// <param name="array">数组</param>
     public static void RandomSortArray<T>(T[] array)
     {
-        for (int i = 0; i < array.Length; i++)
+        for (int i = 0; i < array.Length-1; i++)
         {
             int num = Random.Range(i, array.Length);
             T temp = array[num];
